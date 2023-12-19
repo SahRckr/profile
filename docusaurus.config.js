@@ -64,9 +64,7 @@ module.exports = {
             copyright: `Copyright © ${new Date().getFullYear()} Sahil Satishkumar`,
           },
         },
-        docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-        },
+        docs: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
