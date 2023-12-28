@@ -18,11 +18,13 @@ const HireMe = () => (
       </span>
       <iframe
         title="resume"
-        src="./Sahil_Satishkumar_2023.pdf#view=FitH&toolbar=0&navpanes=0&scrollbar=0"
+        src="./Sahil_Satishkumar_2024_protected.pdf#view=FitH&toolbar=0&navpanes=0&scrollbar=0"
         importance="low"
         loading="lazy"
-        frameBorder="0"
       />
+      <span>
+        The resume PDF is locked, please email me for my unlocked resume.
+      </span>
     </div>
   </Layout>
 );
