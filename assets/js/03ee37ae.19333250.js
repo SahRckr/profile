@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprofile=self.webpackChunkprofile||[]).push([[575],{4965:e=>{e.exports=JSON.parse('{"label":"opentable","permalink":"/blog/tags/opentable","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

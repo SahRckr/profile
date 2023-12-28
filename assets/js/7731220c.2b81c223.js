@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprofile=self.webpackChunkprofile||[]).push([[696],{8424:a=>{a.exports=JSON.parse('{"label":"random","permalink":"/blog/tags/random","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

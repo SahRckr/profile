@@ -1,1 +1,0 @@
-(self.webpackChunkprofile=self.webpackChunkprofile||[]).push([[696],{2981:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"random","name":"random","count":1,"permalink":"/blog/tags/random"}')}}]);

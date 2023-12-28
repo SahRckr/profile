@@ -1,1 +1,0 @@
-(self.webpackChunkprofile=self.webpackChunkprofile||[]).push([[74],{4416:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"react-opentable-wrapper","name":"react-opentable wrapper","count":1,"permalink":"/blog/tags/react-opentable-wrapper"}')}}]);

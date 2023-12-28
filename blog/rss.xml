@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Sahil Satishkumar (@sahrckr) Blog</title>
         <link>https://sahilsatishkumar.dev/blog</link>
@@ -7,27 +7,113 @@
         <lastBuildDate>Fri, 21 Aug 2020 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <copyright>Copyright © 2021 Sahil Satishkumar</copyright>
+        <language>en</language>
+        <copyright>Copyright © 2023 Sahil Satishkumar</copyright>
         <item>
             <title><![CDATA[npm 📦 React OpenTable]]></title>
             <link>https://sahilsatishkumar.dev/blog/2020/08/21/react-opentable</link>
-            <guid>npm 📦 React OpenTable</guid>
+            <guid>https://sahilsatishkumar.dev/blog/2020/08/21/react-opentable</guid>
             <pubDate>Fri, 21 Aug 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[React wrapper for Opentable Reservation Widget]]></description>
+            <content:encoded><![CDATA[<p>I published my very first npm package: <a href="https://www.npmjs.com/package/react-opentable" target="_blank" rel="noopener noreferrer"><code>react-opentable (v2.0.0)</code></a></p>
+<p><img loading="lazy" src="https://badgen.net/npm/v/react-opentable" alt="" class="img_ev3q"> <img loading="lazy" src="https://badgen.net/npm/dt/react-opentable" alt="" class="img_ev3q"> <img loading="lazy" src="https://badgen.net/bundlephobia/minzip/react-opentable" alt="" class="img_ev3q"> <img loading="lazy" src="https://badgen.net/npm/license/react-opentable" alt="" class="img_ev3q"></p>
+<p>This post intends to be a helper document for the same, and will be kept upto date, if the package ever changes. As of writing this post, v2.0.0 is the latest and stable version of the package. The source code is in a private repository right now, will be open sourced soon!</p>
+<p><code>react-opentable</code> is a React wrapper for opentable's reservation widget.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>DISCLAIMER: <strong><code>react-opentable</code></strong> is not affiliated to <strong><code>Opentable Inc.,</code></strong> or it's employees.</p></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="requirements">Requirements<a href="https://sahilsatishkumar.dev/blog/2020/08/21/react-opentable#requirements" class="hash-link" aria-label="Direct link to Requirements" title="Direct link to Requirements">​</a></h3>
+<p>Works only with <a href="https://reactjs.org/blog/2019/02/06/react-v16.8.0.html" target="_blank" rel="noopener noreferrer">React v16.8</a> and above.</p>
+<p><code>react-opentable</code> uses hooks and will not work with previous versions (comment below if you need one)</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="exports">Exports<a href="https://sahilsatishkumar.dev/blog/2020/08/21/react-opentable#exports" class="hash-link" aria-label="Direct link to Exports" title="Direct link to Exports">​</a></h3>
+<p>There are two main exports from <code>react-opentable</code></p>
+<ul>
+<li><code>OpenTable</code> React Component</li>
+<li><code>positions</code> JS Object</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="usage">Usage<a href="https://sahilsatishkumar.dev/blog/2020/08/21/react-opentable#usage" class="hash-link" aria-label="Direct link to Usage" title="Direct link to Usage">​</a></h3>
+<div class="language-jsx codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-jsx codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token tag punctuation" style="color:rgb(199, 146, 234)">&lt;</span><span class="token tag class-name" style="color:rgb(255, 203, 107)">OpenTable</span><span class="token tag" style="color:rgb(255, 85, 114)"> </span><span class="token tag attr-name" style="color:rgb(255, 203, 107)">rid</span><span class="token tag attr-value punctuation attr-equals" style="color:rgb(199, 146, 234)">=</span><span class="token tag attr-value punctuation" style="color:rgb(199, 146, 234)">"</span><span class="token tag attr-value" style="color:rgb(255, 85, 114)">123123</span><span class="token tag attr-value punctuation" style="color:rgb(199, 146, 234)">"</span><span class="token tag" style="color:rgb(255, 85, 114)"> </span><span class="token tag punctuation" style="color:rgb(199, 146, 234)">/&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p><strong><code>rid</code></strong> is a required prop, the component won't function correctly without it.</p></div></div>
+<p>Default Props:</p>
+<table><thead><tr><th>defaultProps</th><th>description</th></tr></thead><tbody><tr><td>type='standard'</td><td>Uses the standard widget type</td></tr><tr><td>theme='standard'</td><td>Default standard theme</td></tr><tr><td>iframe=true</td><td>opens the widget in an iframe (recommended)</td></tr><tr><td>newtab=false</td><td>widget won't open reservation in a new tab</td></tr><tr><td>position='bottom-left'</td><td>widget opens in the <code>'bottom-left'</code> position</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="customization">Customization<a href="https://sahilsatishkumar.dev/blog/2020/08/21/react-opentable#customization" class="hash-link" aria-label="Direct link to Customization" title="Direct link to Customization">​</a></h3>
+<p>The widget can be positioned in one of 5 positions namely 'top-left', 'top-right' ,'bottom-left' (default), 'bottom-right' and 'unset' (if you want to position the element through css, use this).</p>
+<p>To avoid typos you can use the <code>positions</code> object with keys <code>positions.POSITION_TOP_LEFT</code>, <code>positions.POSITION_TOP_RIGHT</code>, <code>positions.POSITION_BOTTOM_LEFT</code>, <code>positions.POSITION_BOTTOM_RIGHT</code> and <code>positions.POSITION_UNSET</code></p>
+<p>For further customisations, pass <code>customClassName</code>, this className gets attached to the container of component.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="demo">Demo<a href="https://sahilsatishkumar.dev/blog/2020/08/21/react-opentable#demo" class="hash-link" aria-label="Direct link to Demo" title="Direct link to Demo">​</a></h3>
+<p>Here's a code sandbox for you to tinker with:</p>
+<iframe src="https://codesandbox.io/embed/unruffled-snow-0zmiw?fontsize=14&amp;hidenavigation=1&amp;theme=light" style="width:100%;height:500px;border:0;border-radius:4px;overflow:hidden" title="unruffled-snow-0zmiw" allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="need-feedback">Need feedback<a href="https://sahilsatishkumar.dev/blog/2020/08/21/react-opentable#need-feedback" class="hash-link" aria-label="Direct link to Need feedback" title="Direct link to Need feedback">​</a></h3>
+<p>Do let me know how can I make this components more useful for you <!-- -->😁</p>]]></content:encoded>
+            <category>opentable</category>
+            <category>react-opentable</category>
+            <category>react-opentable wrapper</category>
         </item>
         <item>
             <title><![CDATA[Soft Skills]]></title>
             <link>https://sahilsatishkumar.dev/blog/2020/08/16/Soft-skills</link>
-            <guid>Soft Skills</guid>
+            <guid>https://sahilsatishkumar.dev/blog/2020/08/16/Soft-skills</guid>
             <pubDate>Sun, 16 Aug 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[...This book is really about me sharing my experience and the things that have made me successful so far in my life...]]></description>
+            <content:encoded><![CDATA[<blockquote><p>...This book is really about me sharing my experience and the things that have made me successful so far in my life...</p><br><br><p><em>(Chapter #71, Soft Skills)</em></p></blockquote>
+<div style="display:flex;flex-direction:column;align-items:center"><a href="https://www.amazon.in/gp/product/B079WY7ZJK/ref=as_li_ss_il?ie=UTF8&amp;linkCode=li3&amp;tag=sahrckr07-21&amp;linkId=fd638e65c93e9c0c646cea96f7b7e92b" target="_blank">Soft Skills: The Software Developer's Life Manual</a><img border="0" width="240" src="https://images.manning.com/360/480/resize/book/0/54e56db-260b-46a7-b15d-ad4dfa39a867/sonmez.png"><img src="https://ir-in.amazon-adsystem.com/e/ir?t=sahrckr07-21&amp;l=li3&amp;o=31&amp;a=B079WY7ZJK" width="1" height="1" border="0" alt=""></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tldr">TLDR;<a href="https://sahilsatishkumar.dev/blog/2020/08/16/Soft-skills#tldr" class="hash-link" aria-label="Direct link to TLDR;" title="Direct link to TLDR;">​</a></h2>
+<p>The book is written with great intention. It covers a lot of topics normally not normally talked about in the software industry.</p>
+<p>Should you read it ? The answer depends on the kind of books you've read in the past. If you have read a lot of non-fiction &amp; self-help in the past, you should probably skip it.</p>
+<p>On the other hand if you are a software developer &amp; new to reading books in general. This might just be the perfect one for you.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-long-version">The long version<a href="https://sahilsatishkumar.dev/blog/2020/08/16/Soft-skills#the-long-version" class="hash-link" aria-label="Direct link to The long version" title="Direct link to The long version">​</a></h2>
+<p>The book is cleverly structured into 7 parts. There are 71 chapters, this will take a while for you to parse through. Each chapter is bite sized 1500-ish words, and are mostly unrelated. You should be able to pick it up, even if you decide to drop it off in between.</p>
+<ol>
+<li>Career</li>
+<li>Marketing yourself</li>
+<li>Learning</li>
+<li>Productivity</li>
+<li>Financial</li>
+<li>Fitness</li>
+<li>Spirit</li>
+</ol>
+<p>While the book starts with a very relatable content, but doesn't do a great job at keeping it relatable.</p>
+<p>A lot of the content which isn't about self development, will not apply to most of us. What works for a certain person, in a certain country might not work in every geography. I personally didn't like most of section 5 &amp; section 6.</p>
+<p>It would have added a lot of value if this book was written by a diverse bunch of authors, instead of, just John broadcasting his (legit) experiences &amp; opinion.</p>
+<p>Let's pick a topic for example. John has made most of his income from real-estate. Let's assume that an average home costs like 2x - 3x the annual income of a software engineer with some years of experience, in a non major city. However, in a country like India cost of real-estate would be atleast 5x the annual income, if not more, than what a software engineer makes. And don't get me started on availability of homeloans (Interest rates have lower now, but the principal amount is not going down any time soon).</p>
+<p>On the bright side of things, if this is your first book. You'll get some sort of a summary from a lot of other books.</p>
+<ul>
+<li><a href="https://amzn.to/3aBWbLu" target="_blank" rel="noopener noreferrer">So Good They Can't Ignore You</a></li>
+<li><a href="https://amzn.to/3g2Jc6y" target="_blank" rel="noopener noreferrer">The Power of Habit</a></li>
+<li><a href="https://amzn.to/3g0dBCr" target="_blank" rel="noopener noreferrer">The Dip: The extraordinary benefits of knowing when to quit</a><br>
+<em>(John does a better job of summarising this in 1 chapter, dragging the topic into a book.)</em></li>
+</ul>
+<p>(I've read only the aforementioned books, John does mention a bunch of books that I've added to my reading queue)</p>
+<blockquote><p>You shouldn't take what anyone says as gospel...</p><p><em>(Chapter #71, Soft Skills)</em></p></blockquote>
+<p>P.S.: I may be "Marketing Myself" by reviving my blog.</p>]]></content:encoded>
+            <category>books</category>
+            <category>review</category>
         </item>
         <item>
             <title><![CDATA[Hello World]]></title>
             <link>https://sahilsatishkumar.dev/blog/2020/04/26/hello-world</link>
-            <guid>Hello World</guid>
+            <guid>https://sahilsatishkumar.dev/blog/2020/04/26/hello-world</guid>
             <pubDate>Sun, 26 Apr 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to this blog.]]></description>
+            <content:encoded><![CDATA[<p>Welcome to this blog.</p>
+<p>This is not a test post.</p>
+<p>I recently made this transition to my website from being a static site to something more. I wanted a place where I could log my thoughts, talk about books that I'm reading (been reading a lot lately) and code I want to share openly.</p>
+<p>There are a lot of changes I really love about this setup. Firstly, I got to hack an off-the-shelf <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">tool</a> to build it (doing that for the second time). Secondly, I am really thrilled to get my own <a href="https://sahilsatishkumar.dev/books">books page</a>. Goodreads as a social media is cool, but then there aren't a lot of people using it. This blog will also give me a way to share my on views on some of the books I really enjoyed reading them.</p>
+<p>Lastly docusaurus is great for sharing programming experiences too. 🙂</p>
+<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token console class-name" style="color:rgb(255, 203, 107)">console</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token method function property-access" style="color:rgb(130, 170, 255)">log</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token string" style="color:rgb(195, 232, 141)">"LOVE THEM CODEBLOCKS!"</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>How can you help ?</p>
+<ul>
+<li>I am a really clumsy at typing. So please let me know if there are tpyos. (Better off, send PR's!)</li>
+<li>I intend to add more posts/tutorials on a periodical basis. (Atleast once in a month, no promises but will definitely give it a try) SEND SUGGESTIONS.</li>
+</ul>
+<p>I do not have a Long Term plan as of now. Personally, I am dealing with a lot of changes, and I cannot commit to a lot at the moment. But here are some of the things I want to fix sooner than later.</p>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Fix landing page, get a roadmap for the same</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Figure out a way to add comments to posts</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Plan next 3 posts (2 technical, 1 book review maybe?)</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Add github action to deploy on push to master</li>
+</ul>
+<p>Ciao 👋</p>]]></content:encoded>
+            <category>books</category>
+            <category>random</category>
         </item>
     </channel>
 </rss>
