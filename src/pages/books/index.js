@@ -4,7 +4,6 @@ import Layout from "@theme/Layout";
 import Head from "@docusaurus/Head";
 
 import styles from "./books.module.css";
-import "./goodreads.css";
 
 const Books = () => (
   <Layout>
@@ -25,7 +24,7 @@ const Books = () => (
         charset="utf-8"
       ></script>
     </Head>
-    <div className="bookshelf">
+    <div className={styles.bookshelf}>
       <div id="gr_grid_widget_1587903274">
         <h2>
           <a
