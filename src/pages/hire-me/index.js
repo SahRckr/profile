@@ -2,6 +2,7 @@ import React from "react";
 
 import Layout from "@theme/Layout";
 import Head from "@docusaurus/Head";
+import ResumeURL from "@site/static/img/Sahil_Satishkumar_2024_protected.pdf#view=FitH&toolbar=0&navpanes=0&scrollbar=0";
 
 import styles from "./hire-me.module.css";
 
@@ -16,12 +17,7 @@ const HireMe = () => (
         building React apps, I have worked with GraphQL, AppSync, React-Native &
         Redux/Redux-Saga.
       </span>
-      <iframe
-        title="resume"
-        src="./Sahil_Satishkumar_2024_protected.pdf#view=FitH&toolbar=0&navpanes=0&scrollbar=0"
-        importance="low"
-        loading="lazy"
-      />
+      <iframe title="resume" src={ResumeURL} importance="low" loading="lazy" />
       <span>
         The resume PDF is locked, please email me for my unlocked resume.
       </span>
