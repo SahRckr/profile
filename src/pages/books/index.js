@@ -1,8 +1,8 @@
 import React from "react";
 import Layout from "@theme/Layout";
 
-import { useScript } from "./useScript.js";
-import { widgets } from "./goodread_constants.js";
+import { useScript } from "./_useScript.js";
+import { widgets } from "./_goodread_constants.js";
 
 import styles from "./books.module.css";
 
