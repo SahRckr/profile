@@ -2,12 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sahilsatishkumar.dev/blog</id>
     <title>Sahil Satishkumar (@sahrckr) Blog</title>
-    <updated>2020-08-21T00:00:00.000Z</updated>
+    <updated>2024-01-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sahilsatishkumar.dev/blog"/>
     <subtitle>Sahil Satishkumar (@sahrckr) Blog</subtitle>
     <icon>https://sahilsatishkumar.dev/img/header.ico</icon>
-    <rights>Copyright © 2023 Sahil Satishkumar</rights>
+    <rights>Copyright © 2024 Sahil Satishkumar</rights>
+    <entry>
+        <title type="html"><![CDATA[Welcome 2024!]]></title>
+        <id>https://sahilsatishkumar.dev/blog/2024/01/01/welcome-2024</id>
+        <link href="https://sahilsatishkumar.dev/blog/2024/01/01/welcome-2024"/>
+        <updated>2024-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Revive Blog.]]></summary>
+        <content type="html"><![CDATA[<div class="language-jsx codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-jsx codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token tag punctuation" style="color:rgb(199, 146, 234)">&lt;/</span><span class="token tag" style="color:rgb(255, 85, 114)">2023</span><span class="token tag punctuation" style="color:rgb(199, 146, 234)">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"> </span><span class="token tag punctuation" style="color:rgb(199, 146, 234)">&lt;</span><span class="token tag" style="color:rgb(255, 85, 114)">2024</span><span class="token tag punctuation" style="color:rgb(199, 146, 234)">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Happy New Year!</p>
+<p>This Was been abandoned for a good 3.5 years. It took quite an effort to get this up and running. I was on Docusaurus <code>v2.0</code>, decided to upgrade to <code>v3.0</code>. Broke the commenting feature in the process. I haven't touched a docusaurus based project for a very long time. I just realised retrospectively, that I created this space for me when I was between jobs back in mid 2020, and I am doing the same in late 2023!</p>
+<p>So what happened between Aug 2020 and now? Well, a lot. I cannot share the entirety of it, but here's the gist.</p>
+<ol>
+<li>Got my final degree certificate. (Was supposed to graduate in 2016, graduated in Jan 2020, got the certificate later that year)</li>
+<li>Read about 100+ books. (Check out the <a href="https://sahilsatishkumar.dev/books#recommended">recommended section</a> for my top picks)</li>
+<li>Worked at a series B startup (in the location tracking like space, again), learnt a lot under a very supportive manager. Got promoted (first time in my career).</li>
+<li>Got hooked on to the <a href="https://maggieappleton.com/basb" target="_blank" rel="noopener noreferrer"><code>Second Brain</code></a> culture, and OKRs.</li>
+<li>Worked at a late stage company's platform team (superapp based out of Indonesia), survived 2 different rounds of layoffs and calls for RTO.</li>
+</ol>
+<p>...And a lot more things.</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>P.S.</div><div class="admonitionContent_BuS1"><p>I am on the look out for my next role. I am looking for something long term at a place with good IC path. I'd prefer to work in the enterprise software space, but any role in a challenging domain would also be a good fit. <a href="https://sahilsatishkumar.dev/contact">Reach out</a> to me over mail to take this further.</p></div></div>
+<p>What to look for from this space?</p>
+<p>As mentioned in my very first blog post, I cannot make any promises, but let me try to do this once in a month. I have a bunch of ideas on where I want to take this. I read a enough technical &amp; non-fictional books to publish my own notes on them, tech interview culture, personal productivity, obsidian-based PKM and a lots more.</p>
+<p>Until next time.</p>]]></content>
+        <author>
+            <name>Sahil Satishkumar</name>
+            <uri>https://sahilsatishkumar.dev/contact</uri>
+        </author>
+        <category label="personal" term="personal"/>
+        <category label="random" term="random"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[npm 📦 React OpenTable]]></title>
         <id>https://sahilsatishkumar.dev/blog/2020/08/21/react-opentable</id>
@@ -112,11 +141,11 @@
 <li>I intend to add more posts/tutorials on a periodical basis. (Atleast once in a month, no promises but will definitely give it a try) SEND SUGGESTIONS.</li>
 </ul>
 <p>I do not have a Long Term plan as of now. Personally, I am dealing with a lot of changes, and I cannot commit to a lot at the moment. But here are some of the things I want to fix sooner than later.</p>
-<ul class="contains-task-list containsTaskList_mC6p">
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Fix landing page, get a roadmap for the same</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Figure out a way to add comments to posts</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Plan next 3 posts (2 technical, 1 book review maybe?)</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Add github action to deploy on push to master</li>
+<ul>
+<li><del>[ ] Fix landing page, get a roadmap for the same</del></li>
+<li><del>[ ] Figure out a way to add comments to posts</del></li>
+<li><del>[ ] Plan next 3 posts (2 technical, 1 book review maybe?)</del></li>
+<li><del>[ ] Add github action to deploy on push to master</del></li>
 </ul>
 <p>Ciao 👋</p>]]></content>
         <author>
