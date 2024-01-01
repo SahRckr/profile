@@ -7,14 +7,14 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
-      - name: echo node and npm version
-        run: |
-          node -v
-          npm -v
+          
       - name: deploy
         run: |
           npm install
