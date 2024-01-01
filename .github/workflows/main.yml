@@ -1,12 +1,11 @@
 on:
-  pull_request:
-    branches: master
-    types: [closed]
+  push:
+    branches:
+      - master
 
 jobs:
-  if_merged:
+  deploy:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged == true
     steps:
       - name: Set up Node.js
         uses: actions/setup-node@v2
