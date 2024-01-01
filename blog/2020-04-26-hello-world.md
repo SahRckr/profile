@@ -1,5 +1,5 @@
 ---
-id: hello-world
+slug: hello-world
 title: Hello World
 author: Sahil Satishkumar
 author_url: https://sahilsatishkumar.dev/contact
