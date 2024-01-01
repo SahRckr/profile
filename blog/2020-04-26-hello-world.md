@@ -30,9 +30,9 @@ How can you help ?
 
 I do not have a Long Term plan as of now. Personally, I am dealing with a lot of changes, and I cannot commit to a lot at the moment. But here are some of the things I want to fix sooner than later.
 
-- [ ] Fix landing page, get a roadmap for the same
-- [ ] Figure out a way to add comments to posts
-- [ ] Plan next 3 posts (2 technical, 1 book review maybe?)
-- [ ] Add github action to deploy on push to master
+- ~[ ] Fix landing page, get a roadmap for the same~
+- ~[ ] Figure out a way to add comments to posts~
+- ~[ ] Plan next 3 posts (2 technical, 1 book review maybe?)~
+- ~[ ] Add github action to deploy on push to master~
 
 Ciao 👋
