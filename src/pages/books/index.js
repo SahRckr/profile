@@ -7,9 +7,9 @@ import { widgets } from "./_goodread_constants.js";
 import styles from "./books.module.css";
 
 function Books() {
-  useScript(widgets.CURRENTLY_READING);
-  useScript(widgets.MUST_READ);
-  useScript(widgets.READ, { defer: true });
+  useScript(widgets.CURRENTLY_READING, { removeOnUnmount: true });
+  useScript(widgets.MUST_READ, { removeOnUnmount: true });
+  useScript(widgets.READ, { defer: true, removeOnUnmount: true });
 
   return (
     <Layout title="Bookshelf">
