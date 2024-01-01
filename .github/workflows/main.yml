@@ -11,6 +11,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
+      - name: echo node and npm version
+        run: |
+          node -v
+          npm -v
       - name: deploy
         run: |
           npm install
