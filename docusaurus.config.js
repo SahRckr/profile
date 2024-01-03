@@ -10,6 +10,9 @@ module.exports = {
   organizationName: "sahilsatishkumar", // Usually your GitHub org/user name.
   projectName: "profile", // Usually your repo name.
   themeConfig: {
+    goatcounter: {
+      code: "sahil",
+    },
     colorMode: {
       disableSwitch: true,
     },
@@ -68,13 +71,6 @@ module.exports = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-      },
-    ],
-    [
-      "@docusaurus/plugin-google-analytics",
-      {
-        trackingID: "UA-176066372-1",
-        anonymizeIP: false,
       },
     ],
   ],
