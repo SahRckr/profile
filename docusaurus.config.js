@@ -9,10 +9,14 @@ module.exports = {
   favicon: "/img/header.ico",
   organizationName: "sahilsatishkumar", // Usually your GitHub org/user name.
   projectName: "profile", // Usually your repo name.
-  themeConfig: {
-    goatcounter: {
-      code: "sahil",
+  scripts: [
+    {
+      src: "//gc.zgo.at/count.js",
+      "data-goatcounter": "https://sahil.goatcounter.com/count",
+      async: true,
     },
+  ],
+  themeConfig: {
     colorMode: {
       disableSwitch: true,
     },
