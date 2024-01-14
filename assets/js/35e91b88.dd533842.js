@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprofile=self.webpackChunkprofile||[]).push([[892],{6730:l=>{l.exports=JSON.parse('{"label":"polyfills","permalink":"/blog/tags/polyfills","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
