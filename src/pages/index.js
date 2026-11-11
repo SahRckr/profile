@@ -1,37 +1,30 @@
 import React from "react";
-import classnames from "classnames";
 import Layout from "@theme/Layout";
-import Link from "@docusaurus/Link";
-import styles from "./styles.module.css";
+
+import styles from "./home.module.css";
+
+const socials = [
+  { label: "GitHub", href: "https://github.com/SahRckr" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/sahrckr" },
+  { label: "Email", href: "mailto:sahilsatishkumar@gmail.com" },
+];
 
 function Home() {
-	React.useEffect(() => {
-		const mainWrapper = document.querySelector(".main-wrapper");
-		mainWrapper.classList.add(styles.columnFlex);
-		return () => mainWrapper.classList.remove(styles.columnFlex);
-	}, []);
-	return (
-		<Layout>
-			<main className={styles.mainContainer}>
-				There is nothing here at the moment, meanwhile checkout:
-				<br />
-				<br />
-				<ul>
-					<li>
-						<Link to="/blog/2020/08/21/react-opentable">
-							🎉 <code>react-opentable</code> 🎉
-						</Link>
-					</li>
-					<li>
-						<Link to="/blog/2020/08/16/Soft-skills">Review of Soft Skills</Link>
-					</li>
-					<li>
-						<Link to="/books">Books that I'm reading right now</Link>
-					</li>
-				</ul>
-			</main>
-		</Layout>
-	);
+  return (
+    <Layout wrapperClassName={styles.wrapper}>
+      <main className={styles.main}>
+        <ul className={styles.socials}>
+          {socials.map(({ label, href }) => (
+            <li key={label}>
+              <a href={href} target="_blank" rel="noopener noreferrer">
+                {label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </main>
+    </Layout>
+  );
 }
 
 export default Home;

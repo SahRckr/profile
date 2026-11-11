@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
+import Heading from "@theme/Heading";
 
 import { useScript } from "./_useScript.js";
 import { widgets } from "./_goodread_constants.js";
@@ -25,14 +26,14 @@ function Books() {
         <div id="gr_grid_widget_1587903274">
           <div className="gr_grid_container" />
         </div>
-        <h2>
+        <Heading as="h2" id="recommended">
           <a
             rel="nofollow"
             href="https://www.goodreads.com/review/list/73366453-sahil-satishkumar?shelf=must-read&utm_medium=api&utm_source=grid_widget"
           >
             Recommended:
           </a>
-        </h2>
+        </Heading>
         <div id="gr_grid_widget_1702986163">
           <div className="gr_grid_container" />
         </div>

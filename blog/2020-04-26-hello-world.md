@@ -1,9 +1,7 @@
 ---
 slug: hello-world
 title: Hello World
-author: Sahil Satishkumar
-author_url: https://sahilsatishkumar.dev/contact
-author_image_url: https://avatars1.githubusercontent.com/u/8242514
+authors: sahil
 tags: [books, random]
 ---
 
