@@ -6,19 +6,15 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "gh-pages -d build",
-    "send": "docusaurus build && cp CNAME build/CNAME && gh-pages -d build"
+    "serve": "docusaurus serve"
   },
   "dependencies": {
     "@docusaurus/core": "^3.10.2",
     "@docusaurus/preset-classic": "^3.10.2",
     "@mdx-js/react": "^3.0.0",
-    "classnames": "^2.2.6",
-    "gh-pages": "^6.3.0",
     "prism-react-renderer": "^2.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-goodreads-shelf": "^3.1.5"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.10.2",

@@ -2,9 +2,7 @@
 slug: promises-polyfill
 title: A comprehensive guide on Promise polyfills
 description: Promise, Promise.all, Promise.resolve, Promise.reject, Promise.race, Promise.allSettled
-author: Sahil Satishkumar
-author_url: https://sahilsatishkumar.dev/contact
-author_image_url: https://avatars1.githubusercontent.com/u/8242514
+authors: sahil
 tags: [javascript, polyfills]
 ---
 

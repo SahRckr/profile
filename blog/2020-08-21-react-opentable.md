@@ -1,9 +1,7 @@
 ---
 title: npm 📦 React OpenTable
 description: React wrapper for Opentable Reservation Widget
-author: Sahil Satishkumar
-author_url: https://sahilsatishkumar.dev/contact
-author_image_url: https://avatars1.githubusercontent.com/u/8242514
+authors: sahil
 tags: [opentable, react-opentable, react-opentable wrapper]
 ---
 
@@ -11,7 +9,7 @@ I published my very first npm package: [`react-opentable (v2.0.0)`](https://www.
 
 ![](https://badgen.net/npm/v/react-opentable) ![](https://badgen.net/npm/dt/react-opentable) ![](https://badgen.net/bundlephobia/minzip/react-opentable) ![](https://badgen.net/npm/license/react-opentable)
 
-This post intends to be a helper document for the same, and will be kept upto date, if the package ever changes. As of writing this post, v2.0.0 is the latest and stable version of the package. The source code is in a private repository right now, will be open sourced soon!
+This post intends to be a helper document for the same, and will be kept upto date, if the package ever changes. As of writing this post, v2.0.0 is the latest and stable version of the package.
 
 <!--truncate-->
 
@@ -27,7 +25,7 @@ DISCLAIMER: **`react-opentable`** is not affiliated to **`Opentable Inc.,`** or 
 
 Works only with [React v16.8](https://reactjs.org/blog/2019/02/06/react-v16.8.0.html) and above.
 
-`react-opentable` uses hooks and will not work with previous versions (comment below if you need one)
+`react-opentable` uses hooks and will not work with previous versions 
 
 ### Exports
 

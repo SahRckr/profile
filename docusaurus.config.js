@@ -1,5 +1,6 @@
-const themes = require("prism-react-renderer");
-const lightTheme = themes.github;
+const { themes } = require("prism-react-renderer");
+
+const description = "Sahil Satishkumar's blog on software engineering, books and other things.";
 
 module.exports = {
   title: "Sahil Satishkumar (@sahrckr)",
@@ -7,8 +8,8 @@ module.exports = {
   url: "https://sahilsatishkumar.dev",
   baseUrl: "/",
   favicon: "/img/header.ico",
-  organizationName: "sahilsatishkumar", // Usually your GitHub org/user name.
-  projectName: "profile", // Usually your repo name.
+  organizationName: "SahRckr",
+  projectName: "profile",
   scripts: [
     {
       src: "//gc.zgo.at/count.js",
@@ -17,12 +18,19 @@ module.exports = {
     },
   ],
   themeConfig: {
+    metadata: [
+      { name: "description", content: description },
+      { name: "author", content: "Sahil Satishkumar" },
+      { property: "og:site_name", content: "Sahil Satishkumar" },
+    ],
     colorMode: {
-      disableSwitch: true,
+      defaultMode: "light",
+      respectPrefersColorScheme: true,
     },
     prism: {
       defaultLanguage: "javascript",
-      lightTheme,
+      theme: themes.github,
+      darkTheme: themes.dracula,
     },
     navbar: {
       title: "Hi, I'm Sahil",
@@ -31,33 +39,12 @@ module.exports = {
         src: "/img/favicon.svg",
       },
       items: [
-        { to: "hire-me", label: "Hire me ❗️", position: "right" },
         { to: "blog", label: "Blog", position: "right" },
         { to: "books", label: "Books", position: "right" },
-        { to: "contact", label: "Contact", position: "right" },
       ],
     },
     footer: {
       style: "light",
-      // links: [
-      // 	{
-      // 		title: "",
-      // 		items: [
-      // 			{
-      // 				label: "Blog",
-      // 				to: "blog",
-      // 			},
-      // 			{
-      // 				label: "GitHub",
-      // 				href: "https://github.com/sahrckr",
-      // 			},
-      // 			{
-      // 				label: "Twitter",
-      // 				href: "https://twitter.com/@sahrkcr",
-      // 			},
-      // 		],
-      // 	},
-      // ],
       copyright: `May the source be with you`,
     },
   },
@@ -68,6 +55,7 @@ module.exports = {
         blog: {
           feedOptions: {
             type: "all",
+            description,
             copyright: `Copyright © ${new Date().getFullYear()} Sahil Satishkumar`,
           },
         },

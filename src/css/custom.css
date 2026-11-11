@@ -1,41 +1,38 @@
 /* stylelint-disable docusaurus/copyright-header */
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
-@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap");
 
 :root {
-	--ifm-color-primary: #4682b4;
-	--ifm-color-primary-dark: #3f75a2;
-	--ifm-color-primary-darker: #3c6f99;
-	--ifm-color-primary-darkest: #315b7e;
-	--ifm-color-primary-light: #568ebd;
-	--ifm-color-primary-lighter: #5f94c1;
-	--ifm-color-primary-lightest: #7aa6cb;
-	--ifm-code-font-size: 95%;
-	--ifm-font-family-base: "Atkinson Hyperlegible", sans-serif;
+  --ifm-color-primary: #3f75a2;
+  --ifm-color-primary-dark: #396992;
+  --ifm-color-primary-darker: #36638a;
+  --ifm-color-primary-darkest: #2c5271;
+  --ifm-color-primary-light: #4682b4;
+  --ifm-color-primary-lighter: #568ebd;
+  --ifm-color-primary-lightest: #7aa6cb;
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: "Atkinson Hyperlegible", system-ui, sans-serif;
 
-	--background-color: #f0f8ff;
-	--ifm-navbar-background-color: #b0c4de;
-	--ifm-footer-background-color: #b0c4de;
+  --ifm-background-color: #f5f9fd;
+  --ifm-navbar-background-color: #dbe7f3;
+  --ifm-footer-background-color: #dbe7f3;
+  --docusaurus-highlighted-code-line-bg: rgba(70, 130, 180, 0.15);
 }
 
-.docusaurus-highlight-code-line {
-	background-color: rgb(72, 77, 91);
-	display: block;
-	margin: 0 calc(-1 * var(--ifm-pre-padding));
-	padding: 0 var(--ifm-pre-padding);
-}
+[data-theme="dark"] {
+  --ifm-color-primary: #7aa6cb;
+  --ifm-color-primary-dark: #6197c3;
+  --ifm-color-primary-darker: #5590bf;
+  --ifm-color-primary-darkest: #3d77a5;
+  --ifm-color-primary-light: #93b5d3;
+  --ifm-color-primary-lighter: #9fbdd7;
+  --ifm-color-primary-lightest: #c2d5e6;
 
-.admonition-icon {
-	margin: 0;
-	margin-right: 0.2rem;
+  --ifm-background-color: #0f1720;
+  --ifm-navbar-background-color: #16212d;
+  --ifm-footer-background-color: #16212d;
+  --docusaurus-highlighted-code-line-bg: rgba(122, 166, 203, 0.2);
 }
 
 code {
-	tab-size: 2;
+  tab-size: 2;
 }
